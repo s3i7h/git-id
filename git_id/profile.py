@@ -82,7 +82,7 @@ class ProfileManager:
 
     @classmethod
     def create(cls, name="", email="", gpg_key="", profile_id=""):
-        if not all({name, email, gpg_key, profile_id}):
+        if not all({name, email, profile_id}):
             print("Enter required info for a new Identity")
         profile = Profile(profile_id)
         profile.name = name or input("name: ")
@@ -91,7 +91,7 @@ class ProfileManager:
         profile.email = email or input("email: ")
         if not profile.email:
             return None
-        profile.gpg_key = gpg_key or input("signingkey: ")
+        profile.gpg_key = gpg_key or input("signingkey (optional): ")
         if not profile.id:
             print("Give a name for this profile: ", profile)
             profile.id = input(">")
