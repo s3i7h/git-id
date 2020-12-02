@@ -1,4 +1,7 @@
 # git-id
+[![PyPI version](https://badge.fury.io/py/git-id.svg)](https://badge.fury.io/py/git-id)
+
+
 An ID manager for git.
 
 An Identity / Profile consists of name, email, and signingkey, and this command aims to manage them and help switch between them seamlessly.
