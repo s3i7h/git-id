@@ -23,12 +23,12 @@ $ git id info
 
 If no matching identity is found, then asks you if you want to register it.
 
-## `list` - list identities in the registry
+## `ls` - list identities in the registry
 ```
-$ git id list
+$ git id ls
 ```
 
-`list` will show all the identities in the registry.
+`ls` will show all the identities in the registry.
 
 ## `use` - use an identity
 ```
