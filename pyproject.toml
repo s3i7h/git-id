@@ -34,7 +34,7 @@ pyyaml = "^5.3.1"
 gitpython = "^3.1.9"
 
 [tool.poetry.scripts]
-git-id = "git_id.core:git_id"
+git-id = "git_id.core:main"
 
 [build-system]
 requires = ["poetry>=0.12"]
