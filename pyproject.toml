@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "git-id"
-version = "0.1.0"
+version = "1.0.0"
 description = "An ID manager for git"
 authors = ["Yuichiro Smith <contact@yu-smith.com>"]
 license = "MIT License"
@@ -10,7 +10,7 @@ keywords = ["git", "id", "identity", "manager"]
 classifiers = [
     "Natural Language :: English",
     "Operating System :: OS Independent",
-    "Development Status :: 4 - Beta",
+    "Development Status :: 5 - Production/Stable",
     "License :: OSI Approved :: MIT License",
     "Programming Language :: Python :: 3",
     "Programming Language :: Python :: 3 :: Only",

@@ -2,7 +2,7 @@ from .profile import *
 from .core import git_id
 
 __copyright__ = 'Copyright (C) 2020 Yuichiro Smith'
-__version__ = '0.1.0'
+__version__ = '1.0.0'
 __license__ = 'MIT License'
 __author__ = 'Yuichiro Smith'
 __author_email__ = 'contact@yu-smith.com'
